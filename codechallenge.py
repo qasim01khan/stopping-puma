@@ -8,8 +8,8 @@ def find_max_sum(strings):
         if current_sum > max_sum:
             max_sum = current_sum
     return max_sum
-# Example usage
-if __name__ == "__code__":
+# example
+if __name__ == "__codechallenge__":
     input_strings = ["dh7js4jf", "or2rjvn2w", "h1n36mfl", "a7e6fw"]
     result = find_max_sum(input_strings)
     print("Max digit sum:", result)  # Output should be 13
